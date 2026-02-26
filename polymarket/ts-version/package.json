@@ -1,0 +1,32 @@
+{
+  "name": "polymarket-bitcoin-bot",
+  "version": "1.0.0",
+  "description": "Automated trading bot for Polymarket Bitcoin 5-minute markets",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "polymarket",
+    "bitcoin",
+    "trading",
+    "bot",
+    "prediction-markets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.3",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.3"
+  }
+}
